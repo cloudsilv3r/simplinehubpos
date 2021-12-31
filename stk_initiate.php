@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
-  $BusinessShortCode = '174379';
+  $BusinessShortCode = '767910';
   $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';  
   
   /*
@@ -24,8 +24,7 @@ if(isset($_POST['submit'])){
   */
   
    $PartyA = $_POST['phone']; // This is your phone number, 
-  $partyB = '767910'
-   $AccountReference = 'simplinehub';
+    $AccountReference = 'simplinehub4';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];;
  
