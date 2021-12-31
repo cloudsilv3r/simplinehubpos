@@ -24,7 +24,8 @@ if(isset($_POST['submit'])){
   */
   
    $PartyA = $_POST['phone']; // This is your phone number, 
-  $AccountReference = '767910';
+  $partyB = '767910'
+   $AccountReference = 'simplinehub';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];;
  
@@ -68,7 +69,7 @@ if(isset($_POST['submit'])){
     'BusinessShortCode' => $BusinessShortCode,
     'Password' => $Password,
     'Timestamp' => $Timestamp,
-    'TransactionType' => 'CustomerPayBillOnline',
+    'TransactionType' => 'CustomerBuyGoodsOnline',
     'Amount' => $Amount,
     'PartyA' => $PartyA,
     'PartyB' => $BusinessShortCode,
